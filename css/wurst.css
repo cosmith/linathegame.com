@@ -6,6 +6,10 @@
     max-height: 500px;
 }
 
+#nav-side {
+	position: fixed;
+}
+
 #nav-side li {
 	cursor: pointer;
 }
