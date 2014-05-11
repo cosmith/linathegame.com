@@ -6,6 +6,10 @@
     max-height: 500px;
 }
 
+#nav-side li {
+	cursor: pointer;
+}
+
 .footer {
     border-top: 1px solid #333;
     margin-top: 20px;
