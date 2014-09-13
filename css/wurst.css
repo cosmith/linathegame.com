@@ -26,3 +26,10 @@
     padding-bottom: 30px;
     background-color: #000;
 }
+
+.drop {
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+}
