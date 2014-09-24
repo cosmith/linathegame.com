@@ -28,7 +28,6 @@
 	var frameCounter = 0;
 
     function init() {
-    	ctx.imageSmoothingEnabled = false;
         setCanvasSize();
 
         for (var i = 0; i < maxParticles; i++) {
@@ -79,6 +78,10 @@
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
     }
+
+    $( window ).resize(function() {
+    	setCanvasSize();
+	});
 
     init();
 })();
