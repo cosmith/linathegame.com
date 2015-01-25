@@ -54,7 +54,7 @@
 	function draw() {
         var i, particle;
         requestAnimationFrame(draw.bind(this));
-        ctx.fillStyle = "hsla(0, 0%, 0%, 1)";
+        ctx.fillStyle = "#060619";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 		ctx.fillStyle = "hsla(0, 0%, 100%," + Math.random() * 100 + ")";
