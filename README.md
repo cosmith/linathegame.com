@@ -1,7 +1,4 @@
-# The website for the best game in the world
-
-Yes sir.
-
+# Lina
 
 ## To compile the less files
 
